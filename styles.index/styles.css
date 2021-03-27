@@ -13,7 +13,6 @@
     }
     .toggler-text{
         color: white;
-        /* text-shadow: 0.5px 0.5px 1px black, 0.5px 0.5px 1px black; */
     }
     .nav-link {
         font-size: 1.5rem;
@@ -35,10 +34,44 @@
         height: 20px;
     }
     
-    .title-box {
+    .heading-box {
         height: 89.5%;
     }
     
-    .title {
+    .heading {
         font: 300 5rem 'Open Sans', sans-serif;
     }
+  
+    .main-container{
+        margin: 6.666rem auto;
+    }
+    .main-titlebox{
+        text-align: center;
+    }
+    .titlebox-subtitle{
+        font: 600 1.1rem 'Open Sans', sans-serif;
+        color: rgb(212, 175, 55);
+    }
+    .titlebox-title{
+        font: 600 3.2rem 'Open Sans', sans-serif;
+        color: rgba(2, 23, 37, 0.702);
+    }
+    .main-content{}
+
+    .content-text
+    .cd_container_p {
+        font-size: 18px;
+        font-family: "Open Sans";
+        color: rgb(2, 23, 37);
+        line-height: 1.778;
+        text-align: center;
+        position: absolute;
+        left: 257.742px;
+        top: 930.575px;
+        width: 757px;
+        height: 180px;
+        z-index: 17;
+      }
+      
+      
+      
