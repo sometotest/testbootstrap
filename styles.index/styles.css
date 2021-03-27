@@ -6,13 +6,25 @@
     
     .header_overlay {
         height: 100%;
+        background: rgba(120, 120, 120, 0.3) url(../images.index/animated-bg.png) center no-repeat;
     }
-    
+    .navbar-toggler{
+        border: none;
+    }
+    .toggler-text{
+        color: white;
+        /* text-shadow: 0.5px 0.5px 1px black, 0.5px 0.5px 1px black; */
+    }
     .nav-link {
+        font-size: 1.5rem;
+        text-shadow: 1px 1px 2px black, 0 0 1em rgb(120, 120, 120);
         text-align: center;
-        background: rgba(120, 120, 120, 0.5);
+        background: rgba(120, 120, 120, 0.8);
     }
-    
+    .nav-link:hover{
+        color:black;
+        text-shadow: 2px 2px 3px black, 0 0 1.5rem white;
+    }
     .navbar-toggler-icon {
         border: none;
     }
