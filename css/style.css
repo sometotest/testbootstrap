@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.top-stripe {
+  background: url(../img/title_img.png) no-repeat  center;
+  background-size: cover;
+  height: 300px;
+}
+.main-section {
+    padding: 25px;
+    margin: 25px;
+    background-color: #F9F9F9;
+}
+.block {
+    padding: 0;
+}
+.left-pad img {
+    width: 100%;
+}
+.left-pad h2 {
+    margin: 20px 0;
+}
+.left-pad h5 {
+    margin: 20px 0;
+    color: #E0B100;
+    font-size: 1.5rem;
+}
+.read-more-button {
+    margin: 0 0 20px 0;
+    padding: 10px 40px;
+}
+.read-more-card {
+    padding: 25px;
+    background-color: white;
+}
+.read-more-card p{
+    color: gray;
+    font-size: 1rem;
+    margin-bottom: 50px;
+}
+.right-card {
+    margin-bottom: 40px;
+}
+.right-card h4 {
+    color: gray;
+}
+.right-card hr {
+    width: 100%;
+    background-color: #E0B100;
+    height: 2px;
+    margin-bottom: 30px;
+}
+.right-card a {
+    display: block;
+    text-decoration: none;
+    font-style: italic;
+    font-size: 1rem;
+    color: black;
+}
+.right-card img {
+    width: 100%;
+    margin: 5px 0;
+}
+.center-button {
+    margin: auto;
+}
+.bottom-line {
+    width: 90%;
+    font-size: 0.75rem;
+    background-color: #F9F9F9;
+    padding: 20PX 0;
+    height: 100%;
+}
+.bottom-line a {
+    text-decoration: none;
+    color: black;
+}
+.bottom-line p {
+    margin: 0;
+}
