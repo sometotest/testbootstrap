@@ -11,7 +11,7 @@
     }
     .navbar-toggler{
         border: none;
-        text-shadow: 1px 1px 1px black, 0 0 0.5rem rgb(177, 177, 177);
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3), -1px -1px 1px rgba(0, 0, 0, 0.3), 1px -1px 1px rgba(0, 0, 0, 0.3), -1px 1px 1px rgba(0, 0, 0, 0.3);
     }
     .toggler-text{
         color: white;
@@ -88,4 +88,63 @@
         color: rgb(2, 23, 37);
         line-height: 1.769;
     }
-      
+    
+    .date-card{
+        font: 400 0.813rem 'Open Sans', sans-serif;
+        color: rgb(80, 93, 104);
+        line-height: 4.615;
+    }
+
+    .card-title-hr{
+        margin-top: -1.5rem;
+        font: 400 1.875rem 'Open Sans', sans-serif;
+        color: rgb(80, 93, 104);
+        line-height: 2;
+    }
+
+    .card-text{
+        font: 300 1rem 'Open Sans', sans-serif;
+        color: rgb(80, 93, 104);
+        line-height: 1.544;
+    }
+    .card-hr{
+        padding: 0 0 15%;
+    }
+    .txt-hr{
+        margin-bottom: 0;
+    }
+    .button-hr{
+            padding: 0;
+            display: inline-block;
+    }
+    .btn-hr{
+        width: 8rem;
+        height: 2.8em;
+        border-radius: none;
+    }
+     
+    .coordinates{
+        padding: 3.125rem 4.35rem;
+
+    }
+    .coordinates-title {
+        font: 700 0.813rem 'Open Sans', sans-serif;
+        color: rgb(80, 93, 104);
+        line-height: 4.615;
+    }
+    
+    .coordinates-content {
+        font: 300 1.1rem 'Open Sans', sans-serif;
+        color: rgb(80, 93, 104);
+        line-height: 1.789;
+    }
+     
+    .footer{
+        margin-top: -2.5rem;
+        padding: 2.5rem 0;
+    }
+    .footer-text{
+        font: 300 1rem 'Open Sans', sans-serif;
+        color: rgb(80, 93, 104);
+        line-height: 2.125;    
+    }
