@@ -16,6 +16,11 @@
     .toggler-text{
         color: white;
     }
+
+    .my-toggler:hover{
+        color:rgba(0, 0, 0, 0.5);
+        text-shadow: none;
+    }
     .nav-link {
         font-size: 1.5rem;
         text-shadow: 1px 1px 2px black, 0 0 1em rgb(120, 120, 120);
