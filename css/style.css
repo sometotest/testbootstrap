@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
 }
-.top-stripe {
+.navig {
   background: url(../img/title_img.png) no-repeat  center;
   background-size: cover;
   height: 300px;
@@ -79,3 +79,4 @@
 .bottom-line p {
     margin: 0;
 }
+
