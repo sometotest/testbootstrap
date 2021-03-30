@@ -1,155 +1,175 @@
+.header {
+    height: 43.75rem;
+    top: 0;
+    background: url(../images.index/cd-intro-bg.png)center/cover no-repeat;
+}
 
-    .header {
-        height: 43.75rem;
-        top: 0;
-        background: url(../images.index/cd-intro-bg.png)center/cover no-repeat;
-    }
+.header_overlay {
+    height: 100%;
+    background: rgba(120, 120, 120, 0.3) url(../images.index/animated-bg.png) center no-repeat;
+}
 
-    .header_overlay {
-        height: 100%;
-        background: rgba(120, 120, 120, 0.3) url(../images.index/animated-bg.png) center no-repeat;
+@media screen and (max-width: 962px) {
+    .my-navbar {
+        background: rgba(85, 90, 93, 0.7);
     }
-    .navbar-toggler{
-        border: none;
-        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3), -1px -1px 1px rgba(0, 0, 0, 0.3), 1px -1px 1px rgba(0, 0, 0, 0.3), -1px 1px 1px rgba(0, 0, 0, 0.3);
-    }
-    .toggler-text{
-        color: white;
-    }
+}
 
-    .my-toggler:hover{
-        color:rgba(0, 0, 0, 0.5);
-        text-shadow: none;
-    }
-    .nav-link {
-        font-size: 1.5rem;
-        text-shadow: 1px 1px 2px black, 0 0 1em rgb(120, 120, 120);
-        text-align: center;
-        background: rgba(120, 120, 120, 0.8);
-    }
-    .nav-link:hover{
-        color:black;
-        text-shadow: 2px 2px 3px black, 0 0 1.5rem white;
-    }
-    .navbar-toggler-icon {
-        border: none;
-    }
-    
-    .navbar-dark .navbar-toggler-icon {
-        background-image: url(../images.index/burger.png);
-        width: 20px;
-        height: 20px;
-    }
-    
-    .heading-box {
-        height: 89.5%;
-    }
-    
-    .heading {
-        font: 300 5rem 'Open Sans', sans-serif;
-    }
-  
-    .main-container{
-        margin: 6.666rem auto;
-    }
-    .main-titlebox{
-        text-align: center;
-    }
-    .titlebox-subtitle{
-        font: 700 1rem 'Open Sans', sans-serif;
-        color: rgb(212, 175, 55);
-    }
-    .titlebox-title{
-        font: 600 3.2rem 'Open Sans', sans-serif;
-        color: rgba(2, 23, 37, 0.702);
-    }
-    .content-text{
-        font: 300 1.125rem 'Open Sans', sans-serif;
-        line-height: 1.778;
-    }
-    .card{
-        margin: 0 2px;
-        background: rgb(249,249,249);
-    }
+.navbar-toggler {
+    border: none;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3), -1px -1px 1px rgba(0, 0, 0, 0.3), 1px -1px 1px rgba(0, 0, 0, 0.3), -1px 1px 1px rgba(0, 0, 0, 0.3);
+}
 
-    .card-col{
-        padding: 0;
-        margin: 1px;
-    } 
-   
-   .card-col img{
-       max-width: 450px;
-   }
+.toggler-text {
+    color: white;
+}
 
-    .card-name{
-        font: 400 1.313rem 'Open Sans', sans-serif;
-        color: rgba(2, 23, 37, 0.702);
-        line-height: 2.857;
-    }
-   
-    .card-cont{
-        padding: 10px;
-        font: 300 0.813rem 'Open Sans', sans-serif;
-        color: rgb(2, 23, 37);
-        line-height: 1.769;
-    }
-    
-    .date-card{
-        font: 400 0.813rem 'Open Sans', sans-serif;
-        color: rgb(80, 93, 104);
-        line-height: 4.615;
-    }
+.my-toggler:hover {
+    color: rgba(0, 0, 0, 0.5);
+    text-shadow: none;
+}
 
-    .card-title-hr{
-        margin-top: -1.5rem;
-        font: 400 1.875rem 'Open Sans', sans-serif;
-        color: rgb(80, 93, 104);
-        line-height: 2;
-    }
+.nav-link {
+    font-size: 1.5rem;
+    text-shadow: 1px 1px 2px black, 0 0 1em rgb(120, 120, 120);
+    text-align: center;
+    background: rgba(120, 120, 120, 0.8);
+}
 
-    .card-text{
-        font: 300 1rem 'Open Sans', sans-serif;
-        color: rgb(80, 93, 104);
-        line-height: 1.544;
-    }
-    .card-hr{
-        padding: 0 0 15%;
-    }
-    .txt-hr{
-        margin-bottom: 0;
-    }
-    .button-hr{
-            padding: 0;
-            display: inline-block;
-    }
-    .btn-hr{
-        width: 8rem;
-        height: 2.8em;
-        border-radius: none;
-    }
-     
-    .coordinates{
-        padding: 3.125rem 4.35rem;
+.nav-link:hover {
+    color: black;
+    text-shadow: 2px 2px 3px black, 0 0 1.5rem white;
+}
 
-    }
-    .coordinates-title {
-        font: 700 0.813rem 'Open Sans', sans-serif;
-        color: rgb(80, 93, 104);
-        line-height: 4.615;
-    }
-    
-    .coordinates-content {
-        font: 300 1.1rem 'Open Sans', sans-serif;
-        color: rgb(80, 93, 104);
-        line-height: 1.789;
-    }
-     
-    .footer{
-        margin-top: -2.5rem;
-        padding: 2.5rem 0;
-    }
-    .footer-text{
-        font: 300 1rem 'Open Sans', sans-serif;
-        color: rgb(80, 93, 104);
-        line-height: 2.125;    
-    }
+.navbar-toggler-icon {
+    border: none;
+}
+
+.navbar-dark .navbar-toggler-icon {
+    background-image: url(../images.index/burger.png);
+    width: 20px;
+    height: 20px;
+}
+
+.heading-box {
+    height: 89.5%;
+}
+
+.heading {
+    font: 300 5rem 'Open Sans', sans-serif;
+}
+
+.main-container {
+    margin: 6.666rem auto;
+}
+
+.main-titlebox {
+    text-align: center;
+}
+
+.titlebox-subtitle {
+    font: 700 1rem 'Open Sans', sans-serif;
+    color: rgb(212, 175, 55);
+}
+
+.titlebox-title {
+    font: 600 3.2rem 'Open Sans', sans-serif;
+    color: rgba(2, 23, 37, 0.702);
+}
+
+.content-text {
+    font: 300 1.125rem 'Open Sans', sans-serif;
+    line-height: 1.778;
+}
+
+.card {
+    margin: 0 2px;
+    background: rgb(249, 249, 249);
+}
+
+.card-col {
+    padding: 0;
+    margin: 1px;
+}
+
+.card-col img {
+    max-width: 450px;
+}
+
+.card-name {
+    font: 400 1.313rem 'Open Sans', sans-serif;
+    color: rgba(2, 23, 37, 0.702);
+    line-height: 2.857;
+}
+
+.card-cont {
+    padding: 10px;
+    font: 300 0.813rem 'Open Sans', sans-serif;
+    color: rgb(2, 23, 37);
+    line-height: 1.769;
+}
+
+.date-card {
+    font: 400 0.813rem 'Open Sans', sans-serif;
+    color: rgb(80, 93, 104);
+    line-height: 4.615;
+}
+
+.card-title-hr {
+    margin-top: -1.5rem;
+    font: 400 1.875rem 'Open Sans', sans-serif;
+    color: rgb(80, 93, 104);
+    line-height: 2;
+}
+
+.card-text {
+    font: 300 1rem 'Open Sans', sans-serif;
+    color: rgb(80, 93, 104);
+    line-height: 1.544;
+}
+
+.card-hr {
+    padding: 0 0 15%;
+}
+
+.txt-hr {
+    margin-bottom: 0;
+}
+
+.button-hr {
+    padding: 0;
+    display: inline-block;
+}
+
+.btn-hr {
+    width: 8rem;
+    height: 2.8em;
+    border-radius: none;
+}
+
+.coordinates {
+    padding: 3.125rem 4.35rem;
+}
+
+.coordinates-title {
+    font: 700 0.813rem 'Open Sans', sans-serif;
+    color: rgb(80, 93, 104);
+    line-height: 4.615;
+}
+
+.coordinates-content {
+    font: 300 1.1rem 'Open Sans', sans-serif;
+    color: rgb(80, 93, 104);
+    line-height: 1.789;
+}
+
+.footer {
+    margin-top: -2.5rem;
+    padding: 2.5rem 0;
+}
+
+.footer-text {
+    font: 300 1rem 'Open Sans', sans-serif;
+    color: rgb(80, 93, 104);
+    line-height: 2.125;
+}
