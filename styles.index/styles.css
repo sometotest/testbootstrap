@@ -86,16 +86,13 @@
     margin: 0 2px;
     background: rgb(249, 249, 249);
 }
-
-.card-col {
-    padding: 0;
-    margin: 1px;
+@media screen and (max-width: 763px){
+    .teams-card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
-
-.card-col img {
-    max-width: 450px;
-}
-
 .card-name {
     font: 400 1.313rem 'Open Sans', sans-serif;
     color: rgba(2, 23, 37, 0.702);
@@ -146,11 +143,6 @@
     height: 2.8em;
     border-radius: none;
 }
-
-.coordinates {
-    padding: 3.125rem 4.35rem;
-}
-
 .coordinates-title {
     font: 700 0.813rem 'Open Sans', sans-serif;
     color: rgb(80, 93, 104);
@@ -162,7 +154,19 @@
     color: rgb(80, 93, 104);
     line-height: 1.789;
 }
-
+@media screen and (max-width:992px) {
+    .coordinates-content span {
+        font-size: 0.8rem;
+    }
+}
+@media screen and (max-width:576px) {
+    .coordinates-content span {
+        font-size: 0.65rem;
+    }
+    .coordinates{
+        padding: 0 5px;
+    }
+}
 .footer {
     margin-top: -2.5rem;
     padding: 2.5rem 0;
@@ -172,4 +176,9 @@
     font: 300 1rem 'Open Sans', sans-serif;
     color: rgb(80, 93, 104);
     line-height: 2.125;
+}
+@media screen and (max-width:1200px) {
+    .footer-text {
+        font-size: 0.8rem;
+    }
 }
