@@ -1,3 +1,6 @@
+.modal-body{
+    background: rgba(120, 120, 120, 0.3) url(../images.index/image-modal.jpg) center/cover;
+}
 .header {
     height: 43.75rem;
     top: 0;
