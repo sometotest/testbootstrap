@@ -1,12 +1,8 @@
-
 .header{
-    background: url(img/header.png) no-repeat;
+    background: url('img/header.png');
     background-size: cover;
-    height: 500px;
+    height: 50vh;
 }
 .header-title{
     padding-top: 1em;
-}
-.header-title a{
-    color: white;
 }
